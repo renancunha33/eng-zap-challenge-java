@@ -34,7 +34,7 @@ public class EngZapChallengeRestApiApplication {
 
 		//carrega Json em memória
 		setListaCache(ListarRegistros.ListarRegistros());
-		if(getListaCache()!= null) System.out.print("Cache carregado");
+		if(getListaCache()!= null) System.out.print("Cache carregado!");
 	}
 
 }
