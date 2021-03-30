@@ -18,14 +18,14 @@ Necessário para Testes e Deploy:<br/>
 <br/>
 API se encontra no Seguinte diretório:
 
->> http://HOSTNAME/API
+> http://HOSTNAME/API
 <br>
 API TREE:
 
-├── /API <br/>
-|            ├── /zap <br/>
-|            └── /vivareal <br/>
-
+- /API <br/>
+  - /zap <br/>
+  - /vivareal <br/>
+<br/>
 Após entrar em um dos endereçoes é necessário passar via QueryURL os sequites parâmetros:
 ```
 int page;
