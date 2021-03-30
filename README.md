@@ -15,6 +15,13 @@ Necessário para Testes e Deploy:<br>
 - JDK 16
 
 ## HOW TO USE:
+
+Após inicar aplicação, aguardar a seguinte mensagem de carregamento do arquivo Json em memória:
+```
+Carregando arquivo source-2.Json ...
+Conectado - status: 200
+cache carregado
+```
 <br>
 API se encontra no Seguinte diretório:
 
