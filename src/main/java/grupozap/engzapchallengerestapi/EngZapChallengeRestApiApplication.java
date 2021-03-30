@@ -30,11 +30,11 @@ public class EngZapChallengeRestApiApplication {
 
 		//Run SpringApplication
 		SpringApplication.run(EngZapChallengeRestApiApplication.class, args);
-		System.out.print("Carregando arquivo source-2.Json ...");
+		System.out.println("Carregando arquivo source-2.Json ...");
 
 		//carrega Json em memória
 		setListaCache(ListarRegistros.ListarRegistros());
-		if(getListaCache()!= null) System.out.print("cache carregado");
+		if(getListaCache()!= null) System.out.print("Cache carregado");
 	}
 
 }
