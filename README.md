@@ -75,3 +75,5 @@ Existem testes para as classes nos seguinte packages:
 <br>
 Caso queira testar Através das requisições na URL, pode utilizar o navegador ou o Postman com o que foi passado no "How to use":
 https://www.postman.com/downloads/
+
+Também pode ser testado através do Swagger UI.
