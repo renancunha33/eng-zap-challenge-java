@@ -77,3 +77,9 @@ Caso queira testar Através das requisições na URL, pode utilizar o navegador 
 https://www.postman.com/downloads/
 
 Também pode ser testado através do Swagger UI.
+
+
+## Melhorias Futuras:
+- Navegação entre paginas na API
+- Criação de Docker Container com a API
+- Implementação de logs detalhadas
