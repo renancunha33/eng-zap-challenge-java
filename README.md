@@ -8,11 +8,7 @@ Esta API foi possível através das sequintes ferramentas: <br>
 - SpringBoot 2.4.4 
 - IntelliJ 2020.3.3 
 - Postman 8.0.10
-
-SWAGGER UI: http://localhost:8080/swagger-ui/index.html
-
-Necessário para Testes e Deploy:<br>
-
+- Swagger UI: http://localhost:8080/swagger-ui/index.html
 - Apache Tomcat 9.0.44
 - JDK 16
 
@@ -40,11 +36,11 @@ cache carregado
 <br>
 - API se encontra no Seguinte diretório:
 
-> http://HOSTNAME/API
+> http://HOSTNAME/api
 <br>
 API TREE:
 
-- /API
+- /api
   - /zap 
   - /vivareal 
 <br>
@@ -58,7 +54,7 @@ int size;
 Exemplo:
 <br>
 
->http://localhost:8080/api/vivareal?page=105&size=5 //Retorna página 10 com Size == 5 elementos
+>http://localhost:8080/api/vivareal?page=105&size=5 //Retorna página 10 com Size == 5 elementos em JSON
 
 <br><br>
 ## TESTS:
