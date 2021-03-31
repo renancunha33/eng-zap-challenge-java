@@ -34,7 +34,7 @@ public class SwaggerConfig implements WebMvcConfigurer {
                 .build()
                 .pathMapping("/")
                 .apiInfo(metaInfo());
-        System.out.println(dock.genericModelSubstitutes().toString());
+
         return dock;
 
     }
