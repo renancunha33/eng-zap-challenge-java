@@ -9,6 +9,8 @@ Esta API foi possível através das sequintes ferramentas: <br>
 - IntelliJ 2020.3.3 
 - Postman 8.0.10
 
+SWAGGER UI: http://localhost:8080/swagger-ui/index.html
+
 Necessário para Testes e Deploy:<br>
 
 - Apache Tomcat 9.0.44
