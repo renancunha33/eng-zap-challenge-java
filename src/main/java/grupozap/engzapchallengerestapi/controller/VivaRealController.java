@@ -8,13 +8,17 @@ import grupozap.engzapchallengerestapi.EngZapChallengeRestApiApplication;
 import grupozap.engzapchallengerestapi.model.Contrato;
 import grupozap.engzapchallengerestapi.util.BoundinBox;
 import grupozap.engzapchallengerestapi.util.PaginarJson;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import org.springframework.web.bind.annotation.*;
+
 import java.util.ArrayList;
 import java.util.List;
 
 @RestController
+@RequestMapping(value="/api")
+@Api(value = "API REST - Grupo ZAP")
+@CrossOrigin(origins = "*")
 public class VivaRealController {
     //variáveis e Objetos
     public List<Contrato> listaVivaReal; //Recebe Lista com todos os registos
@@ -27,7 +31,8 @@ public class VivaRealController {
     BoundinBox bb = new BoundinBox(); //objeto com as variáveis de Bouding box
 
     //Mapping do Controller
-    @GetMapping(path = "/api/vivareal")
+    @GetMapping(path = "/vivareal")
+    @ApiOperation(value = "Retorna a Pagina com a quantidade desejada de registros do Total de registros que pertencem ao Grupo ZAP")
     public String VivaRealController(@RequestParam int page, @RequestParam int size) throws Exception {
 
         //lista recebe todos os registros JSON
